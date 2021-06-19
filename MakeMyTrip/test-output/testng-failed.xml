@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MakeMyTrip]">
+  <test name="Parallel Tests(failed)" parallel="methods">
+    <classes>
+      <class name="Testcases.SearchTest">
+        <methods>
+          <include name="moreitemstest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testcases.SearchTest -->
+      <class name="Testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Parallel Tests(failed) -->
+</suite> <!-- Failed suite [MakeMyTrip] -->

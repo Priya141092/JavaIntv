@@ -1,0 +1,11 @@
+  
+<suite name="MakeMyTrip" verbose="1" >
+
+  <test name = "Parallel Tests" parallel = "methods">
+    <classes>
+       <class name="Testcases.HomePageTest" />
+        <class name="Testcases.SearchTest" />
+    </classes>
+  </test>
+
+</suite>
