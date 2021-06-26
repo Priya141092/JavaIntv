@@ -1,6 +1,7 @@
 package Pages;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -56,16 +57,20 @@ public class Search extends Basecl {
 //		boolean text = modal.isDisplayed();
 //		System.out.println(text);
 		
-		if(modal.isEnabled()==true)
-		{
-		h.Login.click();
-		search.click();
-		}
+//		if(modal.isEnabled()==true)
+//		{
+//		h.Login.click();
+//		search.click();
+//		}
+//		
+//		else 
+//		{
+//			search.click();
+//		}
 		
-		else 
-		{
-			search.click();
-		}
+
+		Actions a = new Actions(driver);
+		a.moveToElement(search).doubleClick().build().perform();
 		
 		
 	}

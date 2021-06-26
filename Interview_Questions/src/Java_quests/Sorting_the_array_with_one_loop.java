@@ -18,9 +18,7 @@ public class Sorting_the_array_with_one_loop {
 			i=-1;
 			}
 			
-			for(int k=0;k<a.length-1;k++) {
-			System.out.println(a[k]);
-			}
+			
 		}
 	
 		

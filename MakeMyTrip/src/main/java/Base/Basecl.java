@@ -30,7 +30,7 @@ public class Basecl {
 		try
 		{
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("/Users/priya.saxena/eclipse-workspace/MakeMyTrip/config.properties");
+			FileInputStream ip = new FileInputStream("/Users/priya.saxena/git/javaIntv/MakeMyTrip/config.properties");
 			prop.load(ip);
 			
 		}

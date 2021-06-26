@@ -13,9 +13,12 @@ import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import Base.Basecl;
 
@@ -110,7 +113,19 @@ public class TestUtil extends Basecl {
 			  //  driver.close();
 			  //  driver.switchTo().window(tabs2.get(0));
 		 }
-
+   
+		 public static void calendarpicker()
+		 {
+			 
+			WebElement month=  driver.findElement(By.xpath("//div[contains(text(),'July 2021')]"));
+			String month1 =month.getText();
+			if(month1.equals("July 2021"))
+			{
+				WebElement next=driver.findElement(By.xpath("//span[@class='DayPicker-NavButton DayPicker-NavButton--next']"));
+				next.click();
+				
+			}
+		 }
 			 
 
 
