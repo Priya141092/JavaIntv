@@ -3,7 +3,7 @@ package Large_companies_interview_questions;
 public class Remove_adjacent_numbers {
 
 	public static void main(String[] args) {
-		String s = "abbaca";
+		String s = "AABBBCCDD";
       char [] m = s.toCharArray();
         
         for(int i=0;i<m.length;i++)
