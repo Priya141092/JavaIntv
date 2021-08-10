@@ -6,7 +6,7 @@ public class Deutsche_adjacent_aplabets {
 
 	public static void main(String[] args) {
 		
-	String m = "AABBCCCDD";
+	String m = "aaabbbaaacccbbbbbb";
 	char [] chars = m.toCharArray();
 	
 		

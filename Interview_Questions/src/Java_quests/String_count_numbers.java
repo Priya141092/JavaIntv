@@ -8,6 +8,17 @@ public class String_count_numbers {
 		
 		String p = "My name is Priya10";
 		
+		char [] m =p.toCharArray();
+		
+		for(int i=0;i<m.length;i++)
+		{
+			
+			if(Character.isDigit(m[i]))
+			{
+				System.out.println(m[i]);
+			}
+				
+		}
 		
 		
 		
