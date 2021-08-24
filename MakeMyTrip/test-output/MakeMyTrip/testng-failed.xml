@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MakeMyTrip]">
+  <test name="Home_Page_dates_flightsTest(failed)">
+    <groups>
+      <run>
+        <include name="strong_ties"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Testcases.Home_Page_dates_flightsTest">
+        <methods>
+          <include name="selectdatestest"/>
+          <include name="travellerclasstest"/>
+        </methods>
+      </class> <!-- Testcases.Home_Page_dates_flightsTest -->
+    </classes>
+  </test> <!-- Home_Page_dates_flightsTest(failed) -->
+</suite> <!-- Failed suite [MakeMyTrip] -->

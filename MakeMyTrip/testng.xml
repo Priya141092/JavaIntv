@@ -1,0 +1,18 @@
+  
+<suite name="MakeMyTrip" verbose="1" >
+
+  <!-- test name = "Parallel Tests" parallel = "methods"-->
+    <test name="Home_Page_dates_flightsTest">	
+  <groups>	
+				<run>	
+   					 <include name="strong_ties" />	
+        		</run>	
+       		</groups>
+       
+    <classes>
+
+        <class name="Testcases.Home_Page_dates_flightsTest" />
+    </classes>
+  </test>
+
+</suite>
