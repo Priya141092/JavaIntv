@@ -24,7 +24,7 @@ public class CityWiseActivity extends Basecl{
  	public  WebElement  landingcity;
 	
 	@FindBy(xpath="//*[@class='custom-modal']/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/a[11]")
-	WebElement london1;
+	WebElement london3;
 	
 	@FindBy(xpath = "//*[@class='custom-modal-content undefined']")
 	WebElement box;
@@ -44,7 +44,7 @@ public class CityWiseActivity extends Basecl{
 	Thread.sleep(2000);
 	//driver.switchTo().frame("SELECT YOUR CITY");
 	//driver.switchTo().frame(box);
-    london1.click();
+    london3.click();
 
 	
 	
