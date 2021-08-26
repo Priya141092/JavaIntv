@@ -51,7 +51,7 @@ public class ActivitiesTest extends Basecl {
 		driver.findElement(By.xpath("//html")).click();
 		a.ActivitiesTours();
 		a.searchactivity();
-		//a.searchdestination();
+		a.searchdestination();
 		
 		
 	}
